@@ -15,18 +15,18 @@ Please follow these steps after cloning this repo.
     <pre><code>composer install</code></pre>
     <pre><code>npm install</code></pre>
 
-- **Environment setup**
+- ### Environment setup ###
     Copy/Rename .env.example to .env
     <pre><code>php artisan key:generate</code></pre>
 
-- **Database setup**
+- ### Database setup ###
     Create MySQL database and add its credentials in .env
     <pre><code>php artisan migrate</code></pre>
 
-- **Build assets**
+- ### Build assets ###
     <pre><code>npm run build</code></pre>
 
-- **🚀 Start development with!**
+- ### 🚀 Start development with! ###
     <pre><code>php artisan serve</code></pre>
     run : <pre><code>npm run dev</code></pre>
 
