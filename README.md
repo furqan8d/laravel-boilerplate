@@ -12,22 +12,22 @@
 Please follow these steps after cloning this repo.
 
 - **1 Install dependencies**
-    run : <pre><code>composer install</code></pre>
-    run : <pre><code>npm install</code></pre>
+    <pre><code>composer install</code></pre>
+    <pre><code>npm install</code></pre>
 
 - **2 Environment setup**
     Copy/Rename .env.example to .env
-    run : <pre><code>php artisan key:generate</code></pre>
+    <pre><code>php artisan key:generate</code></pre>
 
 - **3 Database setup**
     Create MySQL database and add its credentials in .env
-    run : <pre><code>php artisan migrate</code></pre>
+    <pre><code>php artisan migrate</code></pre>
 
 - **4 Build assets**
-    run : <pre><code>npm run build</code></pre>
+    <pre><code>npm run build</code></pre>
 
 - **🚀 Start development with!**
-    run : <pre><code>php artisan serve</code></pre>
+    <pre><code>php artisan serve</code></pre>
     run : <pre><code>npm run dev</code></pre>
 
 ## About Laravel
