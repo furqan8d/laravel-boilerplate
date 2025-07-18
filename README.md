@@ -7,6 +7,29 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to Setup Laravel Boiler Plate
+
+Please follow these steps after cloning this repo.
+
+- **1 Install dependencies**
+    run : <pre><code>composer install</code></pre>
+    run : <pre><code>npm install</code></pre>
+
+- **2 Environment setup**
+    Copy/Rename .env.example to .env
+    run : <pre><code>php artisan key:generate</code></pre>
+
+- **3 Database setup**
+    Create MySQL database and add its credentials in .env
+    run : <pre><code>php artisan migrate</code></pre>
+
+- **4 Build assets**
+    run : <pre><code>npm run build</code></pre>
+
+- **🚀 Start development with!**
+    run : <pre><code>php artisan serve</code></pre>
+    run : <pre><code>npm run dev</code></pre>
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
