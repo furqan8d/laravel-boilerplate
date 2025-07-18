@@ -1,0 +1,23 @@
+Please follow these steps after cloning this repo.
+
+# Install dependencies
+run : composer install
+
+echo "Installing Node.js dependencies..."
+run : npm install
+
+# Environment setup
+Copy/Rename .env.example to .env
+run : php artisan key:generate
+
+# Database setup
+Create MySQL database and add its credentials in .env
+run : php artisan migrate
+
+# Build assets
+run : npm run build
+
+✅ Project setup complete!
+🚀 Start development with
+run : php artisan serve
+run : npm run dev
